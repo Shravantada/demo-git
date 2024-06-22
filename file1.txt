@@ -1,1 +1,11 @@
-File 1 added for demo purpose
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
